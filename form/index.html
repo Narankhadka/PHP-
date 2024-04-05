@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log in form</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+     -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/simpledotcss/simple.min.css"
+    />
+
+    <style></style>
+  </head>
+  <h1>Sign up</h1>
+  <body>
+    <form action="process-signup.php" method="post" novalidate>
+      <div>
+        <label for="username">Username</label>
+        <input type="text" placeholder="Username" name="username"  />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" required />
+      </div>
+      <div>
+        <label for="password_confirmation">Repeat password</label>
+        <input
+          type="password"
+          id="password_confirmation"
+          name="password_confirmation"
+          required
+        />
+      </div>
+
+      <button>Sign Up</button>
+    </form>
+  </body>
+</html>

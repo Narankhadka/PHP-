@@ -15,22 +15,10 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-    <style>
-      .container{
-        /* height: 20px; */
-        position: relative;
-        /* border: 1px solid green; */
-
-      }
-      .container form{
-        margin: 0;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-      }
-
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    
+    <style>  
     </style>
   </head>
   <body>
